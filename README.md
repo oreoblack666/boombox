@@ -1,15 +1,4 @@
-# Boombox Warplet
-
-Cosmic Whack-a-Mole mini-app for **Base Mainnet** and **Farcaster**. Hit Warplets, stack multipliers, cash out or risk the next round.
-
-Configured per the [Base app quickstart](https://docs.base.org/apps/quickstart/build-app): `baseAccount` connector, Base Mainnet only, SSR-safe wagmi + cookie storage.
-
-## Contracts (Base Mainnet v2)
-
-| Contract | Address |
-|----------|---------|
-| **BoomboxToken** | `0x63bBE8362b4e25D51AD0A86c7e45d3B2779E5f6C` |
-| **BoomboxGame** | `0xc45D9d59842128eFb32E2644a227431c62d0919A` |
+2d0919A` |
 
 Addresses are defined in `src/constants/addresses.ts`. Game flow uses single-tx `cashOut(won, reward)` and `nextLevel(won, reward)`.
 
